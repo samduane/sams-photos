@@ -1,0 +1,30 @@
+body {
+    background: #000;
+}
+
+#header nav {
+    background: #cea46f;
+    color: black;
+    bottom: 0;
+    border-radius: 0px 5px 0px 0px;
+}
+#header nav > ul > li a.icon:before { color: #000;}
+#header nav > ul > li a { color: #000 !important; }
+#header nav > ul > li a:hover { color: #000 !important; text-decoration: underline; }
+#header {
+   background: rgba(0,0,0,0.8);
+   backdrop-filter: blur(15px);
+   border-radius: 5px;
+
+}
+article.thumb a:focus img {
+    border: solid 3px #fff;
+}
+
+article.thumb a img {
+    border-radius: 5px;
+}
+.mfp-container {
+   background: rgba(0,0,0,0.1);
+   backdrop-filter: blur(15px);
+}
