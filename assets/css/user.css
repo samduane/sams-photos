@@ -11,6 +11,7 @@ body {
 #header nav > ul > li a.icon:before { color: #000;}
 #header nav > ul > li a { color: #000 !important; }
 #header nav > ul > li a:hover { color: #000 !important; text-decoration: underline; }
+#header nav > ul > li a.active { border-radius: 0px 5px 0px 0px; background-color: #cea46f; }
 #header {
    background: rgba(0,0,0,0.8);
    backdrop-filter: blur(15px);
@@ -27,4 +28,28 @@ article.thumb a img {
 .mfp-container {
    background: rgba(0,0,0,0.1);
    backdrop-filter: blur(15px);
+}
+@media screen and (max-width: 736px) {
+    #header {
+        top: auto;
+        bottom: 0;
+    }
+}
+@media screen and (max-width: 736px) {
+    .panel {
+        -moz-transform: translateY(100vh);
+        -webkit-transform: translateY(100vh);
+        -ms-transform: translateY(100vh);
+        transform: translateY(100vh);
+        bottom: calc(4em - 1px);
+        top: auto;
+    }
+}
+
+#footer {
+    border-radius: 5px;
+   background: rgba(0,0,0,0.8);
+   backdrop-filter: blur(15px);
+   border-bottom: 2px solid #333;
+   height: 100%;
 }
