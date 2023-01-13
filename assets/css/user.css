@@ -1,6 +1,10 @@
 body {
     background: #000;
-    margin-bottom: 5em;
+}
+@media screen and (max-width: 736px) {
+    body {
+    margin-bottom: 4em;
+    }
 }
 
 #header nav {
