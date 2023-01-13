@@ -4,6 +4,7 @@ body {
 @media screen and (max-width: 736px) {
     body {
     margin-bottom: 4em;
+    margin-top: -3.75em;
     }
 }
 
