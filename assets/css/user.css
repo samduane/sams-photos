@@ -9,7 +9,7 @@ body {
 }
 
 #header nav {
-    background: #cea46f;
+    background: #BDAE92;
     color: black;
     bottom: 0;
     border-radius: 0px 5px 0px 0px;
@@ -17,7 +17,7 @@ body {
 #header nav > ul > li a.icon:before { color: #000;}
 #header nav > ul > li a { color: #000 !important; }
 #header nav > ul > li a:hover { color: #000 !important; text-decoration: underline; }
-#header nav > ul > li a.active { border-radius: 0px 5px 0px 0px; background-color: #cea46f; }
+#header nav > ul > li a.active { border-radius: 0px 5px 0px 0px; background-color: #BDAE92; }
 #header {
    background: rgba(0,0,0,0.8);
    backdrop-filter: blur(15px);
